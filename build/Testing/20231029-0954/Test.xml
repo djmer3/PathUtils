@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20231029-0954-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.16.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="dean-ideapad-ubuntu20"
+	OSRelease="5.15.0-87-generic"
+	OSVersion="#97~20.04.1-Ubuntu SMP Thu Oct 5 08:25:28 UTC 2023"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="68"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="13654"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3154.01"
+	>
+	<Testing>
+		<StartDateTime>Oct 29 10:58 CET</StartDateTime>
+		<StartTestTime>1698573518</StartTestTime>
+		<TestList>
+			<Test>./test/example.add</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>example.add</Name>
+			<Path>./test</Path>
+			<FullName>./test/example.add</FullName>
+			<FullCommandLine>/home/dean/dev_ws/PathUtils/build/test/path_tests "--gtest_filter=example.add" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00289422</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/dean/dev_ws/PathUtils/build/test/path_tests "--gtest_filter=example.add" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUMtqwzAQvOsr9hgfLLXXQA6FlhwKaXCSkzFGsTaOQA8jrZN+fi3bhLpQ2jmIXc3saLRF75x2LVip3SqDS/AWxNVbFAqlG45bfY9iL+l6Im2iOPfaKFEr7KJoCSPlMTSi9b41mFoxtqmqkyVvGrbzhGvYjhI4DgxctCEMsAH8lLYzyKVSrNw8UEExx3oGGgdSrLmOvSbkrMwfqGBr/FmaiUd308E7i27QIuV990P83XMOwEooTjsYUS1TTZfw8b4kYPUENmZ/Ok86IE/SZOx/qQllyJW/u+VOftsFBOn48p0h9f7lcHh7Td+ZtJx9Ac0Om3s=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Oct 29 10:58 CET</EndDateTime>
+		<EndTestTime>1698573518</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

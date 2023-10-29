@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/path_tests.dir/path_calc_tests.cpp.o  -o path_tests  ../src/libpath_utils.a ../lib/libgtest_maind.a ../lib/libgtestd.a -lpthread 
