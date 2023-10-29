@@ -1,5 +1,0 @@
-if(EXISTS "/home/dean/dev_ws/PathUtils/build/test/path_tests[1]_tests.cmake")
-  include("/home/dean/dev_ws/PathUtils/build/test/path_tests[1]_tests.cmake")
-else()
-  add_test(path_tests_NOT_BUILT path_tests_NOT_BUILT)
-endif()
